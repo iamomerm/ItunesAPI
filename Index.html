@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>iTunes API</title>
+	<link rel="icon" href="Icon.png">
+	<!-- Link Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+	<!-- Link Style CSS -->
+	<link rel="stylesheet" href="Style.css">
+</head>
+<body>
+<!-- Nav Bar -->
+<nav class="navbar navbar-expand fixed-top" id="NavBar">
+	<div class="navbar-collapse w-100">
+		<img src="Apple.png" style="width:20px; height: 20px; margin-bottom: 2.5px">
+		<span class="navbar-brand" style="margin-left: 15px; font-size: 18px">iTunes API</span>
+	</div>
+
+	<div class="navbar-collapse w-100 fixed">
+		<div class="navbar-nav ml-auto" style="width: 45%">
+			<!-- Search -->
+			<input id="SearchBox" type="text" placeholder="Search" style="width: 70%; height: 30px; border: none; border-radius: 5px">
+			<button id="SearchBTN" type="button" style="margin-left: 15px; height: 30px; background: #c0ebe7; border: none; border-radius: 5px" onclick="ITunesAPI.FetchData(document.getElementById('SearchBox').value)">Search</button>
+		</div>
+	</div>
+</nav>
+</body>
+	<div id="Cards" >
+		<div class="row" id="Cards-Row" style="margin-top: 150px"></div>
+	</div>
+</body>
+<!-- Bottom Link JS Script -->
+<script type="text/javascript" src="Script.js"></script>
+<!-- Bottom Link Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</html>

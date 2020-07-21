@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+/* Navigation Bar Style */
+#NavBar
+{
+    height: 50px;
+    background: #393939;
+    color: white;
+}
+
+/* Body Style */
+body { font-family: 'Questrial'; }
+
+pre { white-space:pre-wrap; }
